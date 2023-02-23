@@ -49,7 +49,8 @@ source .devops/bin/activate
 * Create Flask app in Container
 * Run via kubectl
 
-##Files structure
+## Files structure
+
 .circleci/config.yml folder with the configuration to CircleCI
 model_data folder with the trained model and data for prediction
 output_txt_files folder with docker and kubernetes outputs files
@@ -61,5 +62,7 @@ requirements.txt dependencies of app
 run_docker.sh script to build and start container
 run_kubernetes.sh script to run on Kubernetes
 upload_docker.sh script to upload to dockerhub container
-Test the app
+
+## Test the app
+
 You can test this application by running the script bash make_prediction.sh
